@@ -68,7 +68,7 @@ The HTML file was opened in the browser to analyze performance metrics.
 
 ### 1) Summary Report
 
-![summary](graph1.png)
+![summary.png](graph1.png)
 
 ---
 
@@ -101,5 +101,6 @@ Response time, request statistics, and active user data were recorded properly t
 
 The load testing task was completed successfully.  
 The application handled the simulated load efficiently without errors, and performance metrics were analyzed using generated reports.
+
 
 
