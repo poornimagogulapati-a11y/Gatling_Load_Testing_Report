@@ -28,13 +28,14 @@ To perform load testing on a sample web application using Gatling (Scala) and ev
 
 ## TEST SCENARIO
 
-The load test simulates the following user actions:
+The load test simulates a real-time user workflow on the application. 
+Each virtual user performs the following actions:
 
-1. Open Home Page  
-2. Navigate to Login Page  
-3. Perform Login  
-4. Access Account Summary  
-5. Logout  
+1. Access the Home Page  
+2. Navigate to the Login Page  
+3. Submit valid login credentials  
+4. Access the Account Summary page  
+5. Logout from the application  
 
 ---
 
@@ -100,3 +101,4 @@ Response time, request statistics, and active user data were recorded properly t
 
 The load testing task was completed successfully.  
 The application handled the simulated load efficiently without errors, and performance metrics were analyzed using generated reports.
+
