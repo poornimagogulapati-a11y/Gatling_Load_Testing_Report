@@ -1,0 +1,28 @@
+INTERNSHIP : CODTECH IT SOLUTIONS
+TASK : TASK - 4
+TITLE : GATLING LOAD TESTING USING SCALA
+NAME : GOGULAPATI LAKSHMI POORNIMA
+INTERN ID : CTIS5653
+
+OBJECTIVE :To perform load testing on a sample banking web application using Gatling and evaluate the performance of the system under simulated user load conditions.
+
+TOOL USED :Gatling
+
+LANGUAGE :Scala
+
+JAVA VERSION :Java 11
+
+TEST SCENARIO :The load test simulates user activity by opening the home page, navigating to the login page, performing login using valid credentials, accessing the account summary page, and finally logging out of the application.
+
+LOAD CONFIGURATION :
+Number of Virtual Users : 10
+Injection Type : atOnceUsers
+
+TEST EXECUTION :
+The simulation was executed successfully using Gatling. All configured requests were triggered as per the defined scenario.
+
+RESULT :
+All HTTP requests were executed successfully without any failures. The response time, number of active users, and request statistics were recorded and performance graphs were generated.
+
+CONCLUSION :
+The load testing process was completed successfully. The application handled the simulated user load efficiently without any errors. The performance behavior of the system was analyzed using the generated reports.
